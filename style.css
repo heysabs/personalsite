@@ -1,0 +1,67 @@
+body {
+  font-family: helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    background: url("https://s-media-cache-ak0.pinimg.com/originals/0d/9b/24/0d9b24189f42fb3f2563ef854b41ab0f.png");
+    background-size: cover;
+    color: white;
+}
+
+img {
+    margin: 40px 0 0 0;
+    border: solid white 4px;
+    height: 200px;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+ul {
+    padding: 15px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+}
+li {
+    display: inline;
+    padding: 0 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+  color: rgb(255, 229, 60);
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+article {
+    padding: 20px;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 40px;
+    }
+    li {
+        display: block;
+        padding: 4px;
+    }
+}
